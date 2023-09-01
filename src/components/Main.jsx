@@ -5,8 +5,8 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover"
-        src="src/assets/diveside.JPG"
+        className="bg-top w-full h-screen object-cover"
+        src="src/assets/pool.jpeg"
         alt="Diveside Instructor"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -17,22 +17,14 @@ const Main = () => {
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
             I am a
             <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Developer",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Coder",
-                1000,
-                "Veteran",
-                1000,
-              ]}
+              sequence={["Developer", 1000, "Coder", 1000, "Veteran", 1000]}
               wrapper="div"
               speed={30}
               style={{ fontSize: "1em", paddingLeft: "8px" }}
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[299px] w-full">
+          <div className="flex justify-between pt-6 max-w-[100px] w-full">
             <FaLinkedinIn
               href="https://www.linkedin.com/in/matthewwhurst/"
               className="cursor-pointer"
