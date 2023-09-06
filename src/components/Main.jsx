@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-import pool from "../assets/pool.jpeg";
+import pool from "../assets/pool1.jpeg";
 
 import { motion } from "framer-motion";
 
