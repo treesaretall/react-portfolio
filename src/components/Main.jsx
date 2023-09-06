@@ -1,6 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
+import pool from "../assets/pool.jpeg";
+
 import { motion } from "framer-motion";
 
 import { transition1 } from "../transitions";
@@ -15,7 +17,7 @@ const Main = () => {
       id="main">
       <img
         className="bg-top w-full h-screen object-cover"
-        src="src/assets/pool.jpeg"
+        src={pool}
         alt="Diveside Instructor"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
