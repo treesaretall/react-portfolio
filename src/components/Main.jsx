@@ -1,9 +1,18 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
+import { motion } from "framer-motion";
+
+import { transition1 } from "../transitions";
+
 const Main = () => {
   return (
-    <div id="main">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={transition1}
+      id="main">
       <img
         className="bg-top w-full h-screen object-cover"
         src="src/assets/pool.jpeg"
@@ -38,7 +47,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
