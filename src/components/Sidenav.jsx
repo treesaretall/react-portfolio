@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
+
 function Sidenav() {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -16,7 +17,7 @@ function Sidenav() {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="absolute flex top-4 right-4 z-[99] md:hidden"
+        className="fixed flex top-4 right-4 z-[99] md:hidden"
       />
       {nav ? (
         <div className="fixed flex w-full h-screen bg-white/90 flex-col justify-center items-center z-20">
