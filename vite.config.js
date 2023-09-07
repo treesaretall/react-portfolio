@@ -7,6 +7,3 @@ export default defineConfig({
   base: "/react-portfolio",
   plugins: [react(), tailwindcss()],
 });
-
-
-// "homepage": "https://matthurstdev.com/"
