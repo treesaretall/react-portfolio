@@ -37,13 +37,13 @@ const Main = () => {
           </h2>
           <div className="flex justify-between pt-6 max-w-[100px] w-full">
             <FaLinkedinIn
-              href="https://www.linkedin.com/in/matthewwhurst/"
-              className="cursor-pointer"
+              onclick="window.location='https://www.linkedin.com/in/matthewwhurst/'"
+              className="cursor-pointer hover:scale-110 ease-in duration-200"
               size={20}
             />
             <FaGithub
-              href="https://github.com/treesaretall"
-              className="cursor-pointer"
+              onclick="window.location='https://github.com/treesaretall'"
+              className="cursor-pointer hover:scale-110 ease-in duration-200"
               size={20}
             />
           </div>
