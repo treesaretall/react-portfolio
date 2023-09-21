@@ -46,12 +46,12 @@ const Main = () => {
             <FaLinkedinIn
               onClick={linkedInNav}
               className="cursor-pointer hover:scale-110 ease-in duration-200"
-              size={20}
+              size={30}
             />
             <FaGithub
               onClick={githubNav}
-              className="cursor-pointer hover:scale-110 ease-in duration-200"
-              size={20}
+              className="cursor-pointer hover:scale-125 ease-in duration-200"
+              size={30}
             />
           </div>
         </div>

@@ -16,28 +16,6 @@ import {
 const Resume = () => {
   return (
     <>
-      {/* <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-        <h1 className="text-4xl font-bold text-center text-[#001b5e]">
-          Resume
-        </h1>
-        <div className="gap-12 max-w-xl ">
-          <ResumeItem img={ResumePNG} />
-          <div className="flex justify-center items-center">
-            <div className="grid grid-cols-2 gap-12 justify-center sm:justify-items-center items-center sm:justify-center pt-6 max-w-[100px] w-full">
-              <DiHtml5 size={80} />
-              <DiCss3 size={80} />
-              <DiBootstrap size={80} />
-              <DiJavascript1 size={80} />
-              <DiNodejs size={80} />
-              <DiReact size={80} />
-              <DiMysql size={80} />
-              <DiMongodb size={80} />
-              <DiMarkdown size={80} />
-              <DiHeroku size={80} />
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
         <h1 className="text-4xl font-bold text-center text-[#001b5e]">
           Resume
@@ -46,34 +24,34 @@ const Resume = () => {
         <div className="grid sm:grid-cols-2 gap-12">
           <ResumeItem img={ResumePNG} />
           <div className="grid grid-cols-2">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiHtml5 size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiCss3 size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiBootstrap size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiJavascript1 size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiNodejs size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiReact size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiMysql size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiMongodb size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiMarkdown size={80} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hover:scale-110 ease-in duration-200">
               <DiHeroku size={80} />
             </div>
           </div>

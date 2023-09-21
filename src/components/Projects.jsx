@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import HubSpot from "../assets/HubSpot.jpeg";
+import NotAboutCows from "../assets/notaboutcows.png";
 import photog from "../assets/photog.jpeg";
 import qualified from "../assets/qualified.jpeg";
 import titan from "../assets/titan.jpeg";
@@ -12,7 +12,12 @@ const Projects = () => {
       </h1>
       <p className="text-center py-8"></p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={HubSpot} title="HubSpot App" />
+        <ProjectItem
+          img={NotAboutCows}
+          title="Photography App"
+          tech="React.js - Tailwind"
+          site="https://notaboutcows.netlify.app"
+        />
         <ProjectItem img={photog} title="Photographer App" />
         <ProjectItem img={qualified} title="Qualified App" />
         <ProjectItem img={titan} title="Titan App" />

@@ -17,7 +17,7 @@ function Sidenav() {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="fixed flex top-4 right-4 z-[99] md:hidden"
+        className="fixed flex top-4 right-4 z-[99] md:hidden h-8 w-8"
       />
       {nav ? (
         <div className="fixed flex w-full h-screen bg-white/90 flex-col justify-center items-center z-20">
