@@ -8,6 +8,13 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 
 const Main = () => {
+  const githubNav = () => {
+    window.open("https://github.com/treesaretall", "_blank");
+  };
+  const linkedInNav = () => {
+    window.open("https://www.linkedin.com/in/matthewwhurst/", "_blank");
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -37,12 +44,12 @@ const Main = () => {
           </h2>
           <div className="flex justify-between pt-6 max-w-[100px] w-full">
             <FaLinkedinIn
-              onclick="window.location='https://www.linkedin.com/in/matthewwhurst/'"
+              onClick={linkedInNav}
               className="cursor-pointer hover:scale-110 ease-in duration-200"
               size={20}
             />
             <FaGithub
-              onclick="window.location='https://github.com/treesaretall'"
+              onClick={githubNav}
               className="cursor-pointer hover:scale-110 ease-in duration-200"
               size={20}
             />
