@@ -1,6 +1,6 @@
 import ProjectItem from "./ProjectItem";
 import NotAboutCows from "../assets/notaboutcows.png";
-import photog from "../assets/photog.jpeg";
+import stasios from "../assets/stasios.png";
 import qualified from "../assets/qualified.jpeg";
 import titan from "../assets/titan.jpeg";
 
@@ -13,12 +13,18 @@ const Projects = () => {
       <p className="text-center py-8"></p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={stasios}
+          title="Stasios Deli Site"
+          tech="React - Node - MongoDB - bcrypt - Apollo Server - Express - Tailwind - GraphQL"
+          site="https://stasios-7fcd485311cd.herokuapp.com/"
+        />
+        <ProjectItem
           img={NotAboutCows}
           title="Photography App"
-          tech="React.js - Tailwind"
+          tech="React.js - Tailwind - Framer Motion"
           site="https://notaboutcows.netlify.app"
         />
-        <ProjectItem img={photog} title="Photographer App" />
+
         <ProjectItem img={qualified} title="Qualified App" />
         <ProjectItem img={titan} title="Titan App" />
       </div>
