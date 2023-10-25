@@ -1,8 +1,6 @@
 import ProjectItem from "./ProjectItem";
 import NotAboutCows from "../assets/notaboutcows.png";
 import stasios from "../assets/stasios.png";
-import qualified from "../assets/qualified.jpeg";
-import titan from "../assets/titan.jpeg";
 
 const Projects = () => {
   return (
@@ -24,9 +22,6 @@ const Projects = () => {
           tech="React.js - Tailwind - Framer Motion"
           site="https://notaboutcows.netlify.app"
         />
-
-        <ProjectItem img={qualified} title="Qualified App" />
-        <ProjectItem img={titan} title="Titan App" />
       </div>
     </div>
   );
